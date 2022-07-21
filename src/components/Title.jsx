@@ -3,16 +3,16 @@ import PropTypes from 'prop-types';
 
 class Title extends React.Component {
   render() {
-    const { headLine } = this.props;
-    console.log(headLine);
+    const { headline } = this.props;
+    console.log(headline);
     return (
-      <h2>{headLine}</h2>
+      <h2>{headline}</h2>
     );
   }
 }
 
 Title.propTypes = {
-  headLine: PropTypes.string.isRequired,
+  headline: PropTypes.string.isRequired,
 };
 
 export default Title;
