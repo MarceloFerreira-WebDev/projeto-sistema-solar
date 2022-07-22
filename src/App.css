@@ -1,3 +1,77 @@
-.App {
+* {
   text-align: center;
+  box-sizing: border-box;
+  color: white;
+  margin: 2px;
+  padding: 0;
+}
+
+body {
+  background-image: url('./images/background.png');
+  background-repeat: no-repeat;
+  font-family: Helvetica , Arial , sans-serif;
+  font-size: 100%;
+  line-height: 1.3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#root {
+  width: 80%;
+}
+
+h1 {
+  font-size: 400%
+}
+
+main > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+h2 {
+  width: 90%;
+  font-size: 200%;
+  border: 1px solid #d0d7de;
+  border-radius: 3px;
+  padding: 10px 0;
+}
+
+.planets {
+  display: flex;
+  max-width: 100%;
+}
+
+.planets > div > img {
+  width: 100%;
+}
+
+.missions {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: space-between;
+  min-height: 900px;
+}
+
+.missions > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+  border: 1px solid #d0d7de;
+  border-radius: 5px;
+}
+
+.missions > div > :first-child {
+  font-weight: 700;
+  font-size: large;
+  border-bottom: 1px solid #d0d7de;
+  width: 99%;
+  text-align: left;
 }
