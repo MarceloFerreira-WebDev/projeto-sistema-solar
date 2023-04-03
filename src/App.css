@@ -11,14 +11,10 @@ body {
   background-image: url('./images/background.png');
   display: flex;
   flex-direction: column;
-  font-family: Helvetica , Arial , sans-serif;
+  font-family: Epilogue , Helvetica , Arial , sans-serif;
   font-size: 100%;
   justify-content: space-between;
   line-height: 1.3;
-}
-
-main {
-  padding: 0 10%;
 }
 
 h1 {
@@ -27,22 +23,30 @@ h1 {
 
 main > div {
   align-items: center;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.9);
   display: flex;
   flex-direction: column;
   padding: 10px 0;
 }
 
-h2 {
-  border: 1px solid #d0d7de;
-  border-radius: 3px;
-  font-size: 200%;
-  padding: 10px 0;
-  width: 90%;
+.header-img {
+  max-width: 100%;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.solar-system {
+  display: flex;
+  flex-direction: column;
 }
 
 .planets {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -52,6 +56,12 @@ h2 {
 
 .planets > div > img {
   width: 100%;
+}
+
+.missions-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  margin: 0 5%;
 }
 
 .missions {
@@ -66,11 +76,12 @@ h2 {
 .missions > div {
   align-items: flex-start;
   border: 1px solid #d0d7de;
-  border-radius: 5px;
+  border-radius: 18px;
   display: flex;
   flex-direction: column;
-  padding: 30px 15px;
-  width: 280px;
+  height: 175px;
+  padding: 30px 15px 0;
+  width: 300px;
 }
 
 .missions > div > :first-child {
@@ -80,4 +91,22 @@ h2 {
   padding-bottom: 10px;
   text-align: left;
   width: 99%;
+}
+
+.missions-infos {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.info-div {
+  align-items: center;
+  display: flex;
+  max-width: 30%;
+}
+
+.icon-info-div {
+  height: 15px;
 }

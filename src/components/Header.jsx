@@ -1,10 +1,11 @@
 import React from 'react';
+import logoSistemaSolar from '../images/logo-sistema-solar.png';
 
 class Header extends React.Component {
   render() {
     return (
       <header>
-        <h1>Sistema Solar</h1>
+        <img src={ logoSistemaSolar } alt="logo do site" className="header-img" />
       </header>
     );
   }
