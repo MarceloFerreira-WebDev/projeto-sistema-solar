@@ -1,6 +1,21 @@
 ## Breve Descrição do Projeto
 
 Neste Projeto visualizamos todos os planetas do sistema solar, além de vários cards com informações de missões espaciais que já foram feitas na história da humanidade.
+Neste projeto, eu apliquei as seguintes habilidades:
+
+  * Utilizar JSX no React;
+
+  * Utilizar corretamente o método `render()` para renderizar seus componentes;
+
+  * Utilizar `import` para trazer componentes em diferentes arquivos;
+
+  * Criar componentes de classe em React;
+
+  * Criar múltiplos componentes a partir de um array;
+
+  * Fazer uso de `props` corretamente;
+
+  * Fazer uso de `PropTypes` para validar as `props de um componente`.
 
 ## Tecnologias utilizadas no seu desenvolvimento
 
