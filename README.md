@@ -1,6 +1,7 @@
 ## Breve Descrição do Projeto
 
 Neste Projeto visualizamos todos os planetas do sistema solar, além de vários cards com informações de missões espaciais que já foram feitas na história da humanidade.
+
 Neste projeto, eu apliquei as seguintes habilidades:
 
   * Utilizar JSX no React;
